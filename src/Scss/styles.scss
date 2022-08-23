@@ -1,0 +1,34 @@
+.div_style {
+    @apply flex flex-col leading-[3rem] gap-2 font-Roboto;
+
+    .title_span {
+        @apply text-black text-[1.1rem] font-Roboto mr-5 font-bold;
+    }
+}
+
+.div_style div {
+    @apply flex text-center  text-left mb-5;
+}
+.div_style span {
+    @apply text-[1rem];
+}
+
+.Featured__image img {
+    @apply w-[15rem];
+}
+.div__icons {
+    @apply flex flex-col md:flex-row text-center;
+}
+
+.div__icons span:first-child {
+    @apply text-[2rem] flex justify-center mb-2;
+}
+.div__icons span:nth-child(2) {
+    @apply text-[1.2rem] text-black;
+}
+.div__icons div {
+    @apply space-y-5 mb-16 md:mb-0;
+}
+.div__icons div p {
+    @apply leading-6 text-[1rem] px-5;
+}
