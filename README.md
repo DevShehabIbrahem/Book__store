@@ -2,10 +2,6 @@
 
 Books Store
 
-## Live demo
-
-Official website: [https://movies-xi-three.vercel.app/](https://movies-xi-three.vercel.app/)
-
 ## Main technology used
 
 - ReactJS, Typescript, TailwindCSS
