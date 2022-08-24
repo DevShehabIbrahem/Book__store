@@ -26,9 +26,9 @@ const Featured = () => {
           </button>
         </div>
 
-        <div className="Featured__image flex-2 flex flex-col md:flex-row gap-4">
-          <img src={img1} alt="" />
-          <img src={img2} alt="" />
+        <div className=" flex-2 flex flex-col md:flex-row gap-4">
+          <img src={img1} alt="" className=" w-[15rem]" />
+          <img src={img2} alt="" className=" w-[15rem]" />
         </div>
       </div>
     </div>

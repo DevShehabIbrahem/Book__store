@@ -27,6 +27,7 @@ const Row = ({
       spaceBetween: 20,
     },
     650: { slidesPerView: 2, spaceBetween: 20 },
+
     768: {
       slidesPerView: 3,
       spaceBetween: 40,
@@ -42,7 +43,7 @@ const Row = ({
   };
 
   return (
-    <div className=" md:px-[10rem] ">
+    <div className="scale-95 ">
       <h1 className="text-[2rem] ml-8  mt-9 font-Roboto text-center mb-5">
         {title}
       </h1>
@@ -68,7 +69,7 @@ const Row = ({
                   <img
                     src={b?.formats["image/jpeg"]}
                     alt="img-blur-shadow"
-                    className="h-full object-cover w-[50rem]"
+                    className="h-full object-cover  w-[50rem]"
                   />
                 </div>
               </Link>

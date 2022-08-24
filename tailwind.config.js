@@ -65,7 +65,7 @@ module.exports = {
         "slide-in": {
           "0%": {
             "-webkit-transform": "translateX(-200px)",
-            transform: "translateX(-200px)",
+            transform: "translateX(200px)",
           },
           "100%": {
             "-webkit-transform": "translateX(0px)",
