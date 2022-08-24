@@ -2,6 +2,10 @@
 
 Books Store
 
+## Live demo
+
+Official website: https://books-shoop.vercel.app
+
 ## Main technology used
 
 - ReactJS, Typescript, TailwindCSS
